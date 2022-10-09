@@ -5,3 +5,5 @@ En este momento me encuentro aprendiendo cómo analizar cambios en los archivos 
 Con "git reset --hard" puedo volver a la versión anterior de un archivo eliminando todos los cambios que hice posteriormente al commit seleccionado. Con "git reset --soft" puedo volver a la versión anterior de un archivo pero manteniendo en staging lo que preparé para el commit usando "git add".
 
 Con "git checkout (id del commit) nombredelarchivo" puedo ver el archivo seleccionado en la versión seleccionada y con "git checkout master nombredelarchivo" puedo volver a ver la versión actual del archivo seleccionado.
+
+Con "git branch nombredelarama" puedo crear una nueva rama para trabajar en ella sin afectar a la rama master. Para cambiar de rama solo debo utilizar "git checkout nombredelarama"
