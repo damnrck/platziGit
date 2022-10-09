@@ -7,3 +7,5 @@ Con "git reset --hard" puedo volver a la versión anterior de un archivo elimina
 Con "git checkout (id del commit) nombredelarchivo" puedo ver el archivo seleccionado en la versión seleccionada y con "git checkout master nombredelarchivo" puedo volver a ver la versión actual del archivo seleccionado.
 
 Con "git branch nombredelarama" puedo crear una nueva rama para trabajar en ella sin afectar a la rama master. Para cambiar de rama solo debo utilizar "git checkout nombredelarama"
+
+NOTA: Si no se hace un add y commit antes de cambiar de rama se pierden los cambios realizados al archivo.
