@@ -41,3 +41,9 @@ body{
     padding: 1em;
     background-color: whitesmoke;
 }
+
+#footer{
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+}
