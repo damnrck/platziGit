@@ -23,3 +23,5 @@ Para enviar mis archivos en local al repositorio de github debo usar el comando 
 Antes de hacer el primer push debo combinar el repositorio remoto con el repositorio local usando el comando git pull origin master (para traer los archivos del repositorio remoto a mi rama master).
 
 Con git pull origin master --allow-unrelated-histories puedo hacer el merge de ambos repositorios para poder comenzar a trabajar en local y enviarlo a remoto cuando quiera.
+
+Para agregar etiquetas se debe usar el comando git tag -a (nombre del tag) -m "(mensaje)" (id commit) 
