@@ -13,3 +13,13 @@ NOTA: Si no se hace un add y commit antes de cambiar de rama se pierden los camb
 IMPORTANTE: Antes de hacer el merge debo estar seguro de donde quiero mandar los archivos, si quiero hacer un merge y enviar todos los cambios a master debo hacer un checkout a la rama master y hacer el merge en esa rama. De lo contrario se perderian los archivos de la rama master.
 
 En github cambiaron el nombre de la rama "master" por "main".
+
+Con git remote add origin (url de repositorio) se agrega el repositorio remoto donde vamos a trabajar.
+
+Con git remote puedo ver que estoy conectado a un repositorio de github. Y con git remote -v muestra la dirección del repositorio.
+
+Para enviar mis archivos en local al repositorio de github debo usar el comando git push origin master:main (Esta última es así debido al cambio que hizo github en el nombre de su rama principal de master a main).
+
+Antes de hacer el primer push debo combinar el repositorio remoto con el repositorio local usando el comando git pull origin master (para traer los archivos del repositorio remoto a mi rama master).
+
+Con git pull origin master --allow-unrelated-histories puedo hacer el merge de ambos repositorios para poder comenzar a trabajar en local y enviarlo a remoto cuando quiera.
