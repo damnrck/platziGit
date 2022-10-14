@@ -11,3 +11,5 @@ Con "git branch nombredelarama" puedo crear una nueva rama para trabajar en ella
 NOTA: Si no se hace un add y commit antes de cambiar de rama se pierden los cambios realizados al archivo.
 
 IMPORTANTE: Antes de hacer el merge debo estar seguro de donde quiero mandar los archivos, si quiero hacer un merge y enviar todos los cambios a master debo hacer un checkout a la rama master y hacer el merge en esa rama. De lo contrario se perderian los archivos de la rama master.
+
+En github cambiaron el nombre de la rama "master" por "main".
